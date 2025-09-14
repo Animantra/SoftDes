@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Farms vkusnoFerma = new Farms()
-                .callBuilder()
+        Farms vkusnoFerma = new Farms.Builder()
+                //.callBuilder()
                 .setName("VKUSNO FERMA")
                 .setLocation("SKO")
                 .setHorses(20)
@@ -13,8 +13,8 @@ public class Main {
                 .setPrice(1500000)
                 .build();
 
-       Farms NaturalProd = new Farms()
-                .callBuilder()
+       Farms NaturalProd = new Farms.Builder()
+                //.callBuilder()
                .setName("Prod")
                .setLocation("Moscow")
                .setHorses(20)
