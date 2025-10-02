@@ -1,4 +1,4 @@
 public interface CharacterFactory{
-    public abstract Character createCharacter();
+    public Character createCharacter();
 }
 

@@ -2,6 +2,10 @@ public class WarriorFactory implements CharacterFactory{
 
     @Override
     public Character createCharacter() {
-        return new Warrior();
+        Warrior w = new Warrior();
+        w.setCharacterClass("Warrior");
+        w.setSkill("Sword Mastery");
+        return w;
+        
     }
 }
