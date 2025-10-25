@@ -4,7 +4,7 @@ public class OfflinePay extends Payment{
 
     }
 
-     @Override
+    @Override
     public void pay(int amount) {
         System.out.println("InStore payment");
         System.out.println("Written off :");
