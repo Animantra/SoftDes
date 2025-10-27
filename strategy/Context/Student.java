@@ -2,9 +2,8 @@ public class Student {
     private String name;
     private iGradeStrategy iGradeStrategy;
 
-    public Student(String name, iGradeStrategy iGradeStrategy){
+    public Student(String name){
         this.name = name;
-        this.iGradeStrategy = iGradeStrategy;
     }
 
     public void setStrategy(iGradeStrategy iGradeStrategy){
