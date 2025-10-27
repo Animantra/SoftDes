@@ -12,6 +12,6 @@ public class Student {
     }
 
     public String calculate(float finalScore){
-        return name + " fate: " + iGradeStrategy.calcGrade(finalScore);
+        return name + " result: " + iGradeStrategy.calcGrade(finalScore);
     }    
 }
