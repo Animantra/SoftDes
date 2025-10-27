@@ -1,7 +1,6 @@
 import concreteStrategies.resultGrade;
 import concreteStrategies.standardGrade;
 import context.Student;
-import strategy.iGradeStrategy;
 
 public class Main {
     public static void main(String[] args) {
