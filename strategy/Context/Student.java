@@ -1,3 +1,6 @@
+package context;
+import strategy.iGradeStrategy;
+
 public class Student {
     private String name;
     private iGradeStrategy iGradeStrategy;

@@ -1,3 +1,6 @@
+package concreteStrategies;
+import strategy.iGradeStrategy;
+
 public class resultGrade implements iGradeStrategy{
     private String scholarship = "ura, stipendia";
     private String noScholarship = "bez stipendii";
