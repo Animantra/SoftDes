@@ -16,5 +16,5 @@ public class standardGrade implements iGradeStrategy {
         }
     }
     
-    
+
 }
